@@ -16,7 +16,7 @@ namespace Tests
 
 
             var repeatCommand = new Mock<Gameserver.Interfaces.ICommand>();
-            IoC.Resolve<Hwdtech.ICommand>( "IoC.Register", "Gameserver.Command.Repeat", (object[] args) => repeatCommand.Object).Execute();
+            IoC.Resolve<Hwdtech.ICommand>("IoC.Register", "Gameserver.Command.Repeat", (object[] args) => repeatCommand.Object).Execute();
 
             var injectCommand = new Mock<Gameserver.Interfaces.ICommand>();
             IoC.Resolve<Hwdtech.ICommand>("IoC.Register", "Gameserver.Command.Inject", (object[] args) => injectCommand.Object).Execute();
