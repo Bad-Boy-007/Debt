@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gameserver", "Gameserver.csproj", "{0A27B2CE-FABF-4CBC-A982-F3C37DE40557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gameserver", "Gameserver.csproj", "{0A27B2CE-FABF-4CBC-A982-F3C37DE40557}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{7A12F3CB-CE55-42FC-8D90-C2271A0FF374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "..\Tests\Tests.csproj", "{7A12F3CB-CE55-42FC-8D90-C2271A0FF374}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
