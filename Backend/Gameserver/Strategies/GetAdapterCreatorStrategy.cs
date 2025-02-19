@@ -9,7 +9,7 @@ namespace Gameserver.Strategies
         public object Strategy(params object[] args)
         {
             //  ol, nw
-            return new AdapterCreator((Type)args[0], (Type)args[1]);  
+            return new AdapterCreator((Type)args[0], (Type)args[1]);
         }
     }
 }
