@@ -1,7 +1,6 @@
 ﻿using Gameserver.Adapters;
 using Gameserver.Interfaces;
 
-
 namespace Gameserver.Strategies
 {
     public class GetAdapterCreatorStrategy : IStrategy

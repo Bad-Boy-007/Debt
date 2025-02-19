@@ -9,7 +9,7 @@ namespace Gameserver.Adapters
         private readonly Type _oldtype;
         private readonly Type _newtype;
 
-        public AdapterCreator(Type oldtype, Type newtype)
+        public AdapterCreator(Type oldtype,Type newtype)
         {
             _oldtype = oldtype;
             _newtype = newtype;

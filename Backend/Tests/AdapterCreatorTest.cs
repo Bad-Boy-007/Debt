@@ -4,7 +4,6 @@ using Xunit.Abstractions;
 using Gameserver.Interfaces;
 using Gameserver.Strategies;
 
-
 namespace Tests
 {
     public class AdapterCreatorTest

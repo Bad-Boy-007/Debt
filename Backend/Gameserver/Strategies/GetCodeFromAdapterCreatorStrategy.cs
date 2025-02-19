@@ -1,7 +1,6 @@
 ﻿using Gameserver.Interfaces;
 using Hwdtech;
 
-
 namespace Gameserver.Strategies
 {
     public class GetCodeFromAdapterCreatorStrategy : IStrategy

@@ -1,6 +1,4 @@
-﻿
-
-namespace Gameserver.Interfaces
+﻿namespace Gameserver.Interfaces
 {
     public interface IStrategy
     {
