@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Hwdtech.IoC" Version="1.0.0" />
+    <PackageReference Include="Scriban" Version="5.12.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\" />
   </ItemGroup>
 
 </Project>

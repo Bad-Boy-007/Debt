@@ -4,6 +4,6 @@ namespace Gameserver.Interfaces
 {
     public interface IStrategy
     {
-        public object Execute(params object[] args);
+        public object Strategy(params object[] args);
     }
 }
